@@ -1,0 +1,21 @@
+.table td,p{
+    font-size: 15px;
+}
+.dataTables_filter,.dataTables_length{
+    display:none;
+}
+/*#sent_table td:hover {*/
+/*cursor: pointer;*/
+/*}*/
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    color: #333 !important;
+    border: 1px solid #2464d8;
+    background-color: #00ce68 !important;
+    background: linear-gradient(to bottom, #00ce68 0%, #00ce68 100%);
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    color: white !important;
+    border: 1px solid #2464d8;
+    background-color: #ce3534;
+    background: linear-gradient(to bottom, #ce5257 0%, #ce333b 100%);
+}
